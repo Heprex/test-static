@@ -1,3 +1,5 @@
+# SIMPLE S3 STATIC Website
+
 This is a simple template for static website hosted on AWS using GitHub Actions.
 
 ### Things you will learn to use
@@ -34,4 +36,16 @@ This is a simple template for static website hosted on AWS using GitHub Actions.
 - Step 4: Copy and paste this to the bucket policy.
 
 
-## Part 2 (Create S3 Bucket)
+## Part 2 (Create IAM for S3 Bucket)
+1. On your AWS account, go to IAM, under User, click "Add users", with the following parameters:
+- User name = (up to you)
+- Select AWS credential type = Access key - Programmatic access
+- Click "Attach existing policies directly"
+- Search and choose "AmazonS3FullAccess"
+- You can skip tags, and go straight to "Review"
+- Click "Create user", and take note of the details, you will need them soon for GitHub Actions
+```
+AWS_S3_BUCKET = Bucket Name
+AWS_ACCESS_KEY_ID = Access Key ID
+AWS_SECRET_ACCESS_KEY = Secret Access Key
+```
