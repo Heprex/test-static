@@ -129,3 +129,10 @@ Value = tick to Alias --> Alias to S3 website endpoint --> Choose Region where t
 1. by using Github Pages, same function for static websites.
 2. Deploying via websever
 3. Using cloudfront and other AWS services.
+
+## To access my website
+```
+http://heprex.net
+or
+http://heprex.net.s3-website-ap-southeast-2.amazonaws.com
+```
