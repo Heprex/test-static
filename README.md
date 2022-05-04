@@ -126,6 +126,6 @@ Value = tick to Alias --> Alias to S3 website endpoint --> Choose Region where t
 5. Then your domain will now point to the S3 endpoint created above.
 
 ## Other Options and future improvements 
-1. by using github URL, same function
+1. by using Github Pages, same function for static websites.
 2. Deploying via websever
 3. Using cloudfront and other AWS services.
