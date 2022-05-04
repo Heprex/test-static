@@ -123,6 +123,7 @@ http://heprex.net.s3-website-ap-southeast-2.amazonaws.com
 Record type = "A - Routes traffic to an IPv4 address and some AWS resources"
 Value = tick to Alias --> Alias to S3 website endpoint --> Choose Region where the bucket is located --> You should see your S3 endpoint on dropdown menu
 ```
+5. Then your domain will now point to the S3 endpoint created above.
 
 ## Other Options and future improvements 
 1. by using github URL, same function
